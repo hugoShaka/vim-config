@@ -125,7 +125,7 @@ set encoding=utf-8
   set ruler           "Display the ruler
   set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
   set showcmd
-  colorscheme darkblue
+  colorscheme molokai
   set cursorline      "highlight current line
   " hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
   hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white

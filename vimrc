@@ -66,7 +66,7 @@ set encoding=utf-8
   filetype indent on
   
   " Display tabs and trailing spaces visually
-  set list listchars=tab:\|_,trail:·
+  set list listchars=nbsp:¬,eol:¶,tab:>-,extends:»,precedes:«,trail:•
   
   set nowrap       "Don't wrap lines
   set linebreak    "Wrap lines at convenient points
@@ -128,7 +128,8 @@ set encoding=utf-8
   colorscheme molokai
   set cursorline      "highlight current line
   " hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-  hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+  set cursorcolumn
+  hi CursorColumn ctermfg=White ctermbg=DarkGray cterm=bold guifg=white guibg=DarkGrey gui=bold
 
   if has('statusline')
     set laststatus=2
